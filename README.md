@@ -1,66 +1,47 @@
-# delta-x
-Delta X
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Delta X</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f0f0f0;
-    }
-    header {
-      background-color: #1a1a1a;
-      color: white;
-      padding: 15px 30px;
-    }
-    nav {
-      display: flex;
-      gap: 20px;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .content {
-      padding: 30px;
-    }
-    .profile {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-    }
-  </style>
-</head>
-<body>
-
-<header>
-  <h1>Delta X</h1>
-  <nav>
-    <a href="#">Главная</a>
-    <a href="#">Мой Профиль</a>
-    <a href="#">Сообщество</a>
-    <a href="#">Новости</a>
-    <a href="#">Поддержка</a>
-    <a href="#">Настройки</a>
-    <a href="#">Выход</a>
-  </nav>
-</header>
-
-<div class="content">
-  <div class="profile">
-    <h2>Мой Профиль</h2>
-    <p>Имя: Иван Иванов</p>
-    <p>Email: ivan@example.com</p>
-    <p>Участник с: Января 2025</p>
-  </div>
-</div>
-
-</body>
-</html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta X SKRIPT - Roblox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+        }
+        header {
+            background-color: #0b3d5b;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            text-align: center;
+            background-color: #1a3a5b;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 20px;
+        }
+        .script-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .script-card {
+            background-color: #1a2a3b;
+            padding: 20px;
+            margin: 10px;
+            border-radius:
